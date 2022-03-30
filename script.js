@@ -1,8 +1,23 @@
 // Randomly generates 0,1, or 2
 function cpuChoice() {
         // set 3 as the multiplier/limit for how high the number can go
-        return Math.floor(Math.random * 3)
+        var k = Math.floor(Math.random * 3)
+        if (k === 0) {
+                return "rock";
+        }
+        else if (k === 1) {
+                return "paper";
+        }
+        else if (k === 2) {
+                return "scissors";
+        }
 }
+
+// If function to dictate winning. 0=rock, 1=paper, 2=scissors
+
+
+
+
 
 /* function to play the game
 
