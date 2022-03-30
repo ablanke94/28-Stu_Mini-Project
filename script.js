@@ -1,3 +1,8 @@
+// Randomly generates 0,1, or 2
+function cpuChoice() {
+        // set 3 as the multiplier/limit for how high the number can go
+        return Math.floor(Math.random * 3)
+}
 
 /* function to play the game
 
@@ -10,9 +15,9 @@ Some kind of input from user (RPS)
 
 
 
-Some kind of input from computer ()
+Some kind of input from computer () */
 
-Some function to randomly pick from RPS
+/*Some function to randomly pick from RPS
                                             function getRandomInt(max) {
                                                 return Math.floor(Math.random() * max);
                                             }
